@@ -1,0 +1,8 @@
+language: cpp
+dist: bionic
+compiler: gcc
+
+script: 
+  - qmake
+  - make --silent
+  - ./travis_qmake_gcc_cpp17_deploy
