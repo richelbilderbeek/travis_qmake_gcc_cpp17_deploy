@@ -3,8 +3,10 @@ dist: bionic
 compiler: gcc
 os: 
   - linux
-  - osx
-  - windows
+  - # osx
+  - # windows
+git:
+  quiet: true
 
 script: 
   - qmake
