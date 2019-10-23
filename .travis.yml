@@ -1,7 +1,10 @@
 language: cpp
 dist: bionic
 compiler: gcc
-os: linux, osx, windows
+os: 
+  - linux
+  - osx
+  - windows
 
 script: 
   - qmake
